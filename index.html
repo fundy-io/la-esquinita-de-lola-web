@@ -18,7 +18,7 @@
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
     <nav id="menu" class="menu" aria-label="Navegación principal">
-      <a href="#desayunos">Desayunos</a>
+      <a href="#carta">Carta</a>
       <a href="#esquina">La esquina</a>
       <a class="menu-map" href="https://share.google/RhgEohLnbsmBZFBDv" target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a>
     </nav>
@@ -31,7 +31,7 @@
         <p class="eyebrow">Buenos días, barrio</p>
         <h1 id="hero-title">El desayuno<br>empieza <em>aquí.</em></h1>
         <p class="intro">Café recién hecho, tostadas al gusto y ese ratito que hace que la mañana vaya mejor.</p>
-        <a class="button" href="#desayunos">Descubre la carta <span aria-hidden="true">↓</span></a>
+        <a class="button" href="#carta">Ver la carta <span aria-hidden="true">↓</span></a>
       </div>
       <div class="hero-art" aria-label="Ilustración de una taza de café y un desayuno">
         <div class="awning" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
@@ -43,33 +43,49 @@
       </div>
     </section>
 
-    <section id="desayunos" class="breakfast" aria-labelledby="breakfast-title">
+    <section id="carta" class="breakfast" aria-labelledby="breakfast-title">
       <div class="section-heading">
-        <p class="eyebrow">Para empezar bien</p>
-        <h2 id="breakfast-title">Desayunos sin<br><em>complicarse.</em></h2>
+        <p class="eyebrow">La carta · demo</p>
+        <h2 id="breakfast-title">El desayuno<br><em>de toda la vida.</em></h2>
       </div>
-      <p class="section-intro">Lo esencial de una buena mañana: café, tostadas, algo dulce y ganas de quedarse un rato más.</p>
-      <div class="menu-grid">
-        <article class="menu-item menu-item-wide">
-          <span class="item-number">01</span>
-          <h3>Café y charla</h3>
-          <p>El clásico que nunca falla. Para arrancar despacio o ponerse al día.</p>
-          <span class="item-symbol" aria-hidden="true">☕</span>
-        </article>
-        <article class="menu-item">
-          <span class="item-number">02</span>
-          <h3>Tostadas<br>al gusto</h3>
-          <p>De las de siempre, hechas para pedir otra.</p>
-          <span class="item-symbol" aria-hidden="true">▰</span>
-        </article>
-        <article class="menu-item accent-item">
-          <span class="item-number">03</span>
-          <h3>Un toque<br>dulce</h3>
-          <p>Porque hay mañanas que lo piden.</p>
-          <span class="item-symbol" aria-hidden="true">✦</span>
-        </article>
+      <p class="section-intro">Pitufos, vienas y cafés preparados para arrancar la mañana. Estos precios son una propuesta de demo.</p>
+      <div class="price-menu" aria-label="Carta de desayunos">
+        <section class="price-group featured-group">
+          <p class="item-number">El favorito</p>
+          <h3>Pitufo + café</h3>
+          <div class="price-row featured-price"><span>Pitufo a elegir y café</span><strong>4,00 €</strong></div>
+          <p class="menu-note">La combinación para empezar bien.</p>
+        </section>
+        <section class="price-group">
+          <p class="item-number">Pitufos</p>
+          <h3>Para untar<br>y disfrutar</h3>
+          <div class="price-row"><span>Aceite y tomate</span><strong>2,20 €</strong></div>
+          <div class="price-row"><span>Mantequilla y mermelada</span><strong>2,20 €</strong></div>
+          <div class="price-row"><span>Jamón serrano</span><strong>2,80 €</strong></div>
+          <div class="price-row"><span>Mixto</span><strong>2,90 €</strong></div>
+        </section>
+        <section class="price-group dark-group">
+          <p class="item-number">Vienas</p>
+          <h3>Algo más<br>contundente</h3>
+          <div class="price-row"><span>Jamón y queso</span><strong>3,40 €</strong></div>
+          <div class="price-row"><span>Mixta</span><strong>3,50 €</strong></div>
+          <div class="price-row"><span>A la catalana</span><strong>3,60 €</strong></div>
+          <div class="price-row"><span>Lomo y queso</span><strong>4,10 €</strong></div>
+        </section>
+        <section class="price-group coffee-group">
+          <p class="item-number">Cafés</p>
+          <h3>El buen<br>comienzo</h3>
+          <div class="price-row"><span>Solo / cortado</span><strong>1,40 €</strong></div>
+          <div class="price-row"><span>Con leche</span><strong>1,70 €</strong></div>
+          <div class="price-row"><span>Americano</span><strong>1,70 €</strong></div>
+          <div class="price-row"><span>Colacao</span><strong>1,90 €</strong></div>
+        </section>
       </div>
-      <p class="small-note">La carta y la disponibilidad pueden variar. Pregunta al llegar y déjate recomendar.</p>
+      <aside class="qr-card" aria-label="Código QR para ver la carta">
+        <img src="assets/qr-carta.png" alt="Código QR que abre la carta de desayunos">
+        <div><p class="eyebrow">Tu carta en el móvil</p><h3>Escanea y<br>elige <em>tu desayuno.</em></h3><p>El QR abre directamente esta sección de la carta.</p></div>
+      </aside>
+      <p class="small-note">Carta de demostración: confirma productos y precios reales antes de imprimirla.</p>
     </section>
 
     <section id="esquina" class="story" aria-labelledby="story-title">
