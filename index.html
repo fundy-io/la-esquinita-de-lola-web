@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La Esquinita de Lola · desayunos de barrio, café y buenos ratos.">
+  <meta name="theme-color" content="#f7f0df">
+  <title>La Esquinita de Lola · Desayunos de barrio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="La Esquinita de Lola, inicio">
+      <span class="brand-mark" aria-hidden="true">L</span>
+      <span>La Esquinita<br><em>de Lola</em></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav id="menu" class="menu" aria-label="Navegación principal">
+      <a href="#desayunos">Desayunos</a>
+      <a href="#esquina">La esquina</a>
+      <a class="menu-map" href="https://share.google/RhgEohLnbsmBZFBDv" target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <div class="sun" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Buenos días, barrio</p>
+        <h1 id="hero-title">El desayuno<br>empieza <em>aquí.</em></h1>
+        <p class="intro">Café recién hecho, tostadas al gusto y ese ratito que hace que la mañana vaya mejor.</p>
+        <a class="button" href="#desayunos">Descubre la carta <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Ilustración de una taza de café y un desayuno">
+        <div class="awning" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="window">
+          <div class="cup"><span class="steam steam-one"></span><span class="steam steam-two"></span><span class="handle"></span><span class="coffee"></span></div>
+          <div class="plate"><span class="toast toast-one"></span><span class="toast toast-two"></span></div>
+        </div>
+        <p>La mesa de siempre,<br>con algo rico delante.</p>
+      </div>
+    </section>
+
+    <section id="desayunos" class="breakfast" aria-labelledby="breakfast-title">
+      <div class="section-heading">
+        <p class="eyebrow">Para empezar bien</p>
+        <h2 id="breakfast-title">Desayunos sin<br><em>complicarse.</em></h2>
+      </div>
+      <p class="section-intro">Lo esencial de una buena mañana: café, tostadas, algo dulce y ganas de quedarse un rato más.</p>
+      <div class="menu-grid">
+        <article class="menu-item menu-item-wide">
+          <span class="item-number">01</span>
+          <h3>Café y charla</h3>
+          <p>El clásico que nunca falla. Para arrancar despacio o ponerse al día.</p>
+          <span class="item-symbol" aria-hidden="true">☕</span>
+        </article>
+        <article class="menu-item">
+          <span class="item-number">02</span>
+          <h3>Tostadas<br>al gusto</h3>
+          <p>De las de siempre, hechas para pedir otra.</p>
+          <span class="item-symbol" aria-hidden="true">▰</span>
+        </article>
+        <article class="menu-item accent-item">
+          <span class="item-number">03</span>
+          <h3>Un toque<br>dulce</h3>
+          <p>Porque hay mañanas que lo piden.</p>
+          <span class="item-symbol" aria-hidden="true">✦</span>
+        </article>
+      </div>
+      <p class="small-note">La carta y la disponibilidad pueden variar. Pregunta al llegar y déjate recomendar.</p>
+    </section>
+
+    <section id="esquina" class="story" aria-labelledby="story-title">
+      <div class="story-stamp" aria-hidden="true"><span>desde la esquina</span><strong>☀</strong><span>con cariño</span></div>
+      <div>
+        <p class="eyebrow">Más que un café</p>
+        <h2 id="story-title">Un sitio<br>para <em>volver.</em></h2>
+        <p>La Esquinita de Lola es de esos lugares que se entienden rápido: una mesa libre, un buen desayuno y el barrio pasando por delante.</p>
+        <a class="text-link" href="https://share.google/RhgEohLnbsmBZFBDv" target="_blank" rel="noopener noreferrer">Encuéntranos en Google <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="visit" aria-labelledby="visit-title">
+      <p class="eyebrow">¿Hoy desayunamos?</p>
+      <h2 id="visit-title">Pásate por<br><em>la esquina.</em></h2>
+      <a class="button button-dark" href="https://share.google/RhgEohLnbsmBZFBDv" target="_blank" rel="noopener noreferrer">Ver ubicación <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">L</span><span>La Esquinita<br><em>de Lola</em></span></a>
+    <p>Desayunos de barrio, sin prisa.</p>
+    <p class="copyright">© <span id="year"></span> La Esquinita de Lola</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
