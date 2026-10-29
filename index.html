@@ -19,6 +19,7 @@
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
     <nav id="menu" class="menu" aria-label="Navegación principal">
       <a href="#carta">Carta</a>
+      <a href="#galeria">Galería</a>
       <a href="#esquina">La esquina</a>
       <a class="menu-map" href="https://share.google/RhgEohLnbsmBZFBDv" target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a>
     </nav>
@@ -33,14 +34,10 @@
         <p class="intro">Café recién hecho, tostadas al gusto y ese ratito que hace que la mañana vaya mejor.</p>
         <a class="button" href="#carta">Ver la carta <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="hero-art" aria-label="Ilustración de una taza de café y un desayuno">
-        <div class="awning" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-        <div class="window">
-          <div class="cup"><span class="steam steam-one"></span><span class="steam steam-two"></span><span class="handle"></span><span class="coffee"></span></div>
-          <div class="plate"><span class="toast toast-one"></span><span class="toast toast-two"></span></div>
-        </div>
-        <p>La mesa de siempre,<br>con algo rico delante.</p>
-      </div>
+      <figure class="hero-photo">
+        <img src="assets/gallery/pitufo-jamon-queso.webp" alt="Pitufo de jamón y queso servido en La Esquinita de Lola">
+        <figcaption>El pitufo de siempre, bien acompañado.</figcaption>
+      </figure>
     </section>
 
     <section id="carta" class="breakfast" aria-labelledby="breakfast-title">
@@ -86,6 +83,29 @@
         <div><p class="eyebrow">Tu carta en el móvil</p><h3>Escanea y<br>elige <em>tu desayuno.</em></h3><p>El QR abre directamente esta sección de la carta.</p></div>
       </aside>
       <p class="small-note">Carta de demostración: confirma productos y precios reales antes de imprimirla.</p>
+    </section>
+
+    <section id="galeria" class="gallery" aria-labelledby="gallery-title">
+      <div class="gallery-heading">
+        <p class="eyebrow">Lo que se vive aquí</p>
+        <h2 id="gallery-title">Café, terraza<br>y <em>mucho sabor.</em></h2>
+        <p>Un vistazo a La Esquinita de Lola: el primer café, la terraza, la sala y los platos que invitan a quedarse.</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo photo-tall"><img src="assets/gallery/cafe-solo.webp" alt="Café solo recién servido"><figcaption>El primer café</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/cafe-y-tostada.webp" alt="Café y tostada para desayunar"><figcaption>Desayunos sin prisa</figcaption></figure>
+        <figure class="photo photo-wide"><img src="assets/gallery/interior-del-local.webp" alt="Sala interior de La Esquinita de Lola"><figcaption>La sala</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/fachada.webp" alt="Fachada exterior de La Esquinita de Lola"><figcaption>La esquina</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/terraza-cubierta.webp" alt="Terraza cubierta del local"><figcaption>La terraza</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/entrada-la-esquinita.webp" alt="Entrada con el rótulo La Esquinita Cafetería"><figcaption>Bienvenidos</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/terraza-bajo-los-arboles.webp" alt="Terraza bajo los árboles"><figcaption>Al aire libre</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/cartel-la-esquinita.webp" alt="Cartel de La Esquinita Cafetería"><figcaption>La Esquinita</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/terraza-en-servicio.webp" alt="Terraza del bar en servicio"><figcaption>El barrio pasa por aquí</figcaption></figure>
+        <figure class="photo photo-wide"><img src="assets/gallery/carne-a-la-plancha.webp" alt="Carne a la plancha servida en el local"><figcaption>También para comer</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/gofre-con-chocolate.webp" alt="Gofre dulce con chocolate y nata"><figcaption>Un toque dulce</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/cazuela-gratinada.webp" alt="Cazuela gratinada servida en La Esquinita"><figcaption>Platos calientes</figcaption></figure>
+        <figure class="photo"><img src="assets/gallery/cazuela-de-tapa.webp" alt="Cazuela de tapa caliente"><figcaption>Para compartir</figcaption></figure>
+      </div>
     </section>
 
     <section id="esquina" class="story" aria-labelledby="story-title">
